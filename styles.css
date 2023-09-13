@@ -1,0 +1,107 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1621494547944-5ddbc84514b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.726);
+    margin: 0;
+    padding: 1rem;
+    overflow-x: hidden;
+    height: 100vh;
+    column-fill: balance;
+}
+
+.top {
+    background-image: linear-gradient(45deg,rgba(224, 210, 210, 0.194),rgb(45, 45, 55));
+    color: rgba(14, 10, 8, 0.854);
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+}
+
+#select-prompt{
+    text-decoration-line:underline;
+    color:rgba(255, 255, 255, 0.669);
+}
+
+ul {
+    list-style:none ;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    background-image: url(https://images.unsplash.com/photo-1506968430777-bf7784a87f23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80);
+    align-items: center;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    
+}
+
+
+
+img {
+    margin-top: 20px;
+    width: 1500px;
+    height: 100px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgba(98, 105, 98, 0.89);
+}
+
+.img-recipe {
+    margin-top: 20px;
+    width: 1500px;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+.pulse-element {
+    width: 100%;
+    height: 100%;
+}
+
+.pulse-element::-webkit-validation-bubble-text-block{
+    animation: pulse 0.9s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
